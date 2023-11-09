@@ -8,7 +8,7 @@ function Contact() {
     return (
         <div>
             <form onSubmit={handleSubmit(onSubmit)}>
-                <input placeholder='Please enter your name!' {...register('name'), { required: true }} />
+                <input placeholder='Please enter your name!' {...register('name', { required: true })} />
                 <input placeholder='Please enter a valid email!' {...register('email', { required: true, pattern: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ })} />
                 <textarea placeholder='Please enter your message!' {...register('message', { required: true })} />
                 <button type='submit'>Submit</button>
