@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../components/Project';
+import { Row } from 'react-bootstrap';
 
 const projects = [
     {
@@ -9,7 +10,7 @@ const projects = [
         repoLink: 'https://github.com/cslunsford/wallet-wiz',
     }, {
         title: 'Cooking With What You Got',
-        image: '/CookingWithWhatYouGot',
+        image: '/CookingWithWhatYouGot.png',
         deployedLink: 'https://lukiangelxd.github.io/Cookingwithwhatyougot/',
         repoLink: 'https://github.com/Lukiangelxd/Cookingwithwhatyougot',
     }, {
@@ -40,11 +41,11 @@ function Portfolio() {
         <div>
             <h2>My Projects</h2>
             <h5>Please note apps that are spun down or are not deployed will link to repository's README or video demonstration when applicable!</h5>
-            <div>
+            <Row xs={1} md={2}>
                 {projects.map((project, index) => (
                     <Project key={index} {...project} />
                 ))}
-            </div>
+            </Row>
         </div>
     );
 }

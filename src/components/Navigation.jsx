@@ -1,21 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../App.css';
 
 function Navigation() {
     return (
         <nav>
-            <ul>
-                <li>
-                    <Link to='/'>About Me</Link>
+            <ul className='nav'>
+                <li className='nav-item ms-auto'>
+                    <NavLink to='/' className='nav-link' exact>About Me</NavLink>
                 </li>
-                <li>
-                    <Link to='/portfolio'>Portfolio</Link>
+                <li className='nav-item'>
+                    <NavLink to='/portfolio' className='nav-link'>Portfolio</NavLink>
                 </li>
-                <li>
-                    <Link to='/resume'>Resume</Link>
+                <li className='nav-item'>
+                    <NavLink to='/resume' className='nav-link'>Resume</NavLink>
                 </li>
-                <li>
-                    <Link to='/contact'>Contact Me</Link>
+                <li className='nav-item'>
+                    <NavLink to='/contact' className='nav-link'>Contact Me</NavLink>
                 </li>
             </ul>
         </nav>

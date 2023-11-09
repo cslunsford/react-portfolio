@@ -1,0 +1,69 @@
+:root {
+    --timberwolf: #dad7cdff;
+    --sage: #a3b18aff;
+    --fern-green: #588157ff;
+    --hunter-green: #3a5a40ff;
+    --brunswick-green: #344e41ff;
+    --font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+body {
+    background-color: var(--timberwolf);
+}
+
+header {
+    border-bottom: 10px solid var(--brunswick-green);
+    background-color: var(--sage);
+}
+
+h1 {
+    font-family: var(--font);
+    color: var(--hunter-green)
+}
+
+.proPic {
+    height: 320px;
+    width: 240px;
+}
+
+h2 {
+    font-family: var(--font);
+    color: var(--hunter-green);
+    font-weight: bold;
+}
+
+.aboutContainer {
+    border-left: 10px solid var(--brunswick-green);
+    border-right: 10px solid var(--brunswick-green)
+}
+
+p {
+    font-family: var(--font);
+    color: var(--hunter-green);
+    font-weight: bold;
+}
+
+nav a {
+    font-family: var(--font);
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: var(--fern-green);
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--sage);
+    text-align: center;
+    border-top: 10px solid var(--brunswick-green);
+    padding: 20px;
+}
+
+.projectPic {
+    height: 200px;
+    width: 200px;
+}
