@@ -104,6 +104,8 @@ h3 {
     color: var(--hunter-green);
     padding: 10px;
     margin: 5px;
+    font-family: var(--font);
+    font-weight: bold;
 }
 
 .customListGroup {
