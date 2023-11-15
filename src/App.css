@@ -21,6 +21,10 @@ h1 {
     color: var(--hunter-green)
 }
 
+ul {
+    list-style: none;
+}
+
 .proPic {
     height: 320px;
     width: 240px;
@@ -43,16 +47,20 @@ p {
     font-weight: bold;
 }
 
-nav a {
+.nav-link {
     font-family: var(--font);
+    color: var(--brunswick-green);
+}
+
+.nav-link:hover {
+    background-color: var(--timberwolf);
+    color: var(--brunswick-green);
+}
+
+.nav-link.active {
+    background-color: var(--timberwolf);
+    color: var(--brunswick-green);
     font-weight: bold;
-}
-
-nav a:hover {
-    background-color: var(--fern-green);
-}
-
-nav a.active {
     text-decoration: underline;
 }
 
@@ -63,7 +71,41 @@ footer {
     padding: 20px;
 }
 
+.iconLink {
+    color: var(--brunswick-green);
+}
+
 .projectPic {
     height: 200px;
     width: 200px;
+}
+
+.card {
+    background-color: var(--sage);
+    padding: 10px;
+}
+
+.button {
+    background-color: var(--brunswick-green);
+    border: solid;
+    border-color: var(--fern-green);
+
+}
+
+h3 {
+    color: var(--hunter-green);
+    font-family: var(--font);
+    padding-bottom: 10px;
+    border-bottom: solid 5px var(--brunswick-green);
+}
+
+.customListItem {
+    background-color: var(--sage);
+    color: var(--hunter-green);
+    padding: 10px;
+    margin: 5px;
+}
+
+.customListGroup {
+    padding: 15px;
 }

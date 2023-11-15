@@ -8,7 +8,7 @@ function Navigation() {
         <nav>
             <ul className='nav'>
                 <li className='nav-item ms-auto'>
-                    <NavLink to='/' className='nav-link' exact>About Me</NavLink>
+                    <NavLink to='/' className='nav-link' exact='true'>About Me</NavLink>
                 </li>
                 <li className='nav-item'>
                     <NavLink to='/portfolio' className='nav-link'>Portfolio</NavLink>
