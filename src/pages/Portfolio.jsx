@@ -7,10 +7,12 @@ const projects = [
         title: '456 Print Co',
         image: '/456logo.png',
         deployedLink: 'https://456printco.com/',
+        repoLink: 'https://olivebranchgrowth.com/',
     }, {
         title: 'Belleville Screen Printing Co',
         image: '/astro-man2.png',
         deployedLink: 'https://bellevillescreen.com/',
+        repoLink: 'https://olivebranchgrowth.com/',
     }, {
         title: 'Book Search Engine Refactor',
         image: '/BookSearchEngine.png',
