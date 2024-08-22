@@ -4,15 +4,13 @@ import { Row } from 'react-bootstrap';
 
 const projects = [
     {
-        title: 'Wallet Whiz',
-        image: '/WalletWiz.png',
-        deployedLink: 'https://walletwizzz-e48c873597e2.herokuapp.com/homepage',
-        repoLink: 'https://github.com/cslunsford/wallet-wiz',
+        title: '456 Print Co',
+        image: '/456logo.png',
+        deployedLink: 'https://456printco.com/',
     }, {
-        title: 'Cooking With What You Got',
-        image: '/CookingWithWhatYouGot.png',
-        deployedLink: 'https://lukiangelxd.github.io/Cookingwithwhatyougot/',
-        repoLink: 'https://github.com/Lukiangelxd/Cookingwithwhatyougot',
+        title: 'Belleville Screen Printing Co',
+        image: '/astro-man2.png',
+        deployedLink: 'https://bellevillescreen.com/',
     }, {
         title: 'Book Search Engine Refactor',
         image: '/BookSearchEngine.png',
