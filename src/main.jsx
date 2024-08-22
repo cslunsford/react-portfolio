@@ -19,9 +19,6 @@ const router = createBrowserRouter([
                 index: true,
                 element: <Homepage />
             }, {
-                path: '/contact',
-                element: <Contact />
-            }, {
                 path: '/portfolio',
                 element: <Portfolio />
             }, {
