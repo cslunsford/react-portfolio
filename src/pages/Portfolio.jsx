@@ -38,7 +38,6 @@ function Portfolio() {
     return (
         <div className='text-center'>
             <h2>My Projects</h2>
-            <h5>Please note apps that are spun down or are not deployed will link to repository's README or video demonstration when applicable!</h5>
             <Row xs={1} md={2}>
                 {projects.map((project, index) => (
                     <Project key={index} {...project} />
