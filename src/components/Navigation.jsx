@@ -16,9 +16,6 @@ function Navigation() {
                 <li className='nav-item'>
                     <NavLink to='/proficiencies' className='nav-link'>Resume</NavLink>
                 </li>
-                <li className='nav-item'>
-                    <NavLink to='/contact' className='nav-link'>Contact Me</NavLink>
-                </li>
             </ul>
         </nav>
     );
