@@ -14,7 +14,7 @@ function Navigation() {
                     <NavLink to='/portfolio' className='nav-link'>Portfolio</NavLink>
                 </li>
                 <li className='nav-item'>
-                    <NavLink to='/proficiencies' className='nav-link'>Proficiencies</NavLink>
+                    <NavLink to='/resume' className='nav-link'>Proficiencies</NavLink>
                 </li>
             </ul>
         </nav>
